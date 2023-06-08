@@ -17,7 +17,6 @@
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/age-calculator-Dq3wBUPphb](https://www.frontendmentor.io/solutions/age-calculator-Dq3wBUPphb)
 - Live Site URL: [https://storied-sorbet-9904a0.netlify.app/](https://storied-sorbet-9904a0.netlify.app/)
 
 ## My process
