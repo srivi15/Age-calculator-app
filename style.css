@@ -1,0 +1,136 @@
+:root {
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+}
+  
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Light-grey);
+}
+
+.card{
+    width: 550px;
+    background-color: var(--White);
+    border-radius: 1rem 1rem 11rem .1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer{
+    display: flex;
+    gap: 2rem;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+}
+
+.block label{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--Smokey-grey);
+}
+
+input{
+    align-items: center;
+    width: 100px;
+    padding: .5rem;
+    border: 1px solid var(--Light-grey);
+    border-radius: .5rem;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+input::placeholder{
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+
+.submitBlock{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+}
+
+.submit{
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Purple);
+    cursor: pointer;
+}
+
+.result h1{
+    font-size: 5rem;
+    font-weight: 800;
+    font-style: italic;
+    height: fit-content;
+}
+
+.result span{
+    color: var(--Purple);
+}
+
+small{
+    color: red;
+}
+
+@media screen and (max-width:600px) {
+    .card{
+        width: 360px;
+    }
+    .container{
+        padding: 1rem;
+    }
+    .formContainer{
+        justify-content: space-between;
+        margin-bottom: 5rem;
+        gap: 0;
+    }
+    .submitBlock{
+        position: relative;
+    }
+    .sumbit{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .result{
+        margin-top: 5rem;
+    }
+    .result h1{
+        font-size: 3.5rem;
+    }
+}
