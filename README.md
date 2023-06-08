@@ -2,17 +2,13 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 ### Screenshot
@@ -21,8 +17,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/age-calculator-Dq3wBUPphb](https://www.frontendmentor.io/solutions/age-calculator-Dq3wBUPphb)
+- Live Site URL: [https://storied-sorbet-9904a0.netlify.app/](https://storied-sorbet-9904a0.netlify.app/)
 
 ## My process
 
@@ -34,14 +30,15 @@
 - JavaScript
 
 ### What I learned
-
+- JavaScript functions
+- How to use constant and let
+- Event handling like clicking the submit button
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Might develop advance feature like real-time loading of age while entering the birthday later.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ## Author
 
